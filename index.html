@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do List</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="To-Do List">
+    <meta name="keywords" content="HTML,CSS and JavaScript">
+    <meta name="author" content="Vivek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <h1>TodoMatic</h1>
+        <h2>What needs to be done?</h2>
+
+        <form autocomplete="off" id="form">
+            <input type="text" class="box" />
+            <input type="checkbox" />
+            <button type="submit" class="buttons add">Add</button>
+        </form>
+
+
+        <div class="button_tab">
+            <button type="button" id="showAllBtn" class="buttons">Show All Tasks</button>
+            <button type="button" id="showActiveBtn" class="buttons">Show Active Tasks</button>
+            <button type="button" id="showCompleteBtn" class="buttons">Show Completed Tasks</button>
+            <button type="button" id="sortTimeBtn" class="buttons">Sort Tasks Time Based</button>
+            <button type="button" id="sortLexicoBtn" class="buttons">Sort Tasks Lexicographic Order</button>
+        </div>
+        <img src="assets/image/to-Do.png" id="img" />
+        <div id="result"></div>
+    </div>
+
+    <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
