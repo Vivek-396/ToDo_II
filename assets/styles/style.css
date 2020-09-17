@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+div,
+ul,
+li,
+img,
+form {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+button,
+input {
+    margin: 0;
+}
+
+input {
+    margin: 2% 1% 2% 1%;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 20%;
+    height: 40%;
+    margin: 1% 0 1% 0;
+}
+
+.buttons {
+    background-color: #54A193;
+    color: ivory;
+    border: none;
+    margin: 1% 1% 1% 1%;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1%;
+}
+
+.btns {
+    background-color: #54A193;
+    color: ivory;
+    margin: 10px 2% 8px 0;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1% 2% 1% 2%;
+    float: right;
+}
+
+.box {
+    width: 80%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.button_tab {
+    border-bottom: 2px solid #54A193;
+}
+
+h1 {
+    background-color: #54A193;
+    font-size: 4rem;
+    padding: 3% 1% 3% 1%;
+    color: ivory;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 1% 0 1% 0;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    margin: 1% 5% 1% 5%;
+    font-size: 1.8rem;
+    background-color: #9fd1c8;
+    overflow: auto;
+    font-weight: 900;
+    padding: 1%;
+}
+
+form {
+    background-color: #f7f7f7;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+     :root {
+        font-size: 16px;
+    }
+    .buttons {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+     :root {
+        font-size: 10px;
+    }
+    img {
+        width: 35%;
+        height: 32%;
+        margin: 1% 0 1% 0;
+    }
+    .button_tab {
+        display: flex;
+        flex-direction: column;
+        padding: 4% 10% 4% 10%;
+    }
+    .buttons {
+        width: 100%;
+        padding: 2% 0 2% 0;
+    }
+    .add {
+        width: 70%;
+    }
+}
